@@ -8,7 +8,6 @@ if SHIELD_KLOR_LEFT
 
 endif # LEFT
 
-if SHIELD_KLOR_LEFT || SHIELD_KLOR_RIGHT
-
+if SHIELD_SOFLE_LEFT || SHIELD_SOFLE_RIGHT
     config ZMK_SPLIT
         default y
