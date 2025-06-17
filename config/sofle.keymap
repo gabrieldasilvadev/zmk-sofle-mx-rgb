@@ -65,18 +65,14 @@
                 <&inc_dec_kp C_NEXT C_PREVIOUS>;
         };
 
-        gabs {
+        symbols {
             bindings = <
-&kp ESC         &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                           &kp NUMBER_6  &kp N7          &kp N8           &kp N9       &kp N0         &kp LC(SINGLE_QUOTE)
-&kp TAB         &kp Q   &kp W         &kp E         &kp R         &kp T                            &kp Y         &kp U           &kp I            &kp O        &kp P          &kt BACKSPACE
-&kp LEFT_SHIFT  &kp A   &kp S         &kp D         &kp F         &kp G                            &kp H         &kp J           &kp K            &kp L        &kp SEMICOLON  &kp SQT
-&kp LCTRL       &kp Z   &kp X         &kp C         &kp V         &kp B   &kp C_MUTE    &kp C_PP   &kp N         &kp M           &kp LC(COMMA)    &kp LC(DOT)  &kp LC(SLASH)  &kp UP_ARROW
-                        &kp LEFT_GUI  &kp CAPSLOCK  &kp LEFT_ALT  &mo 0   &kp SPACE     &kp ENTER  &mo 1         &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp RIGHT
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &kp KP_EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&inc_dec_kp C_NEXT C_PREVIOUS>;
         };
 
         adjust_layer {
