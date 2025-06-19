@@ -68,7 +68,7 @@
         symbols {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans          &trans           &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans          &trans           &trans        &kp KP_EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans          &trans           &kp PLUS      &kp KP_EQUAL
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans          &trans           &kp MINUS     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp QUESTION  &trans
                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans          &kp DOWN_ARROW
